@@ -10,7 +10,7 @@ Contact the author for permission to use or modify this code.
 A modular system for road object detection with depth estimation using YOLO and MiDaS.
 
 ## Video Presentation
-https://youtu.be/AVk0zNGTx9Y
+https://youtu.be/TFD78DyHoFk
 
 ## Project Structure
 
@@ -184,5 +184,6 @@ python -m avpss.tests.test_detector
 - ❌ Any safety-critical applications
 
 **Use at your own risk. The author assumes no responsibility for any consequences of using this software.**
+
 
 
