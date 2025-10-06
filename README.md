@@ -9,6 +9,9 @@ Contact the author for permission to use or modify this code.
 
 A modular system for road object detection with depth estimation using YOLO and MiDaS.
 
+## Video Presentation
+https://youtu.be/AVk0zNGTx9Y
+
 ## Project Structure
 
 ```
@@ -136,15 +139,6 @@ python avpss/example_usage.py
 # 5. Custom batch processing
 ```
 
-## Benefits of Modular Structure
-
-1. **Maintainability**: Each component has a single responsibility
-2. **Testability**: Components can be tested independently
-3. **Reusability**: Components can be reused in other projects
-4. **Scalability**: Easy to add new features without modifying existing code
-5. **Team Development**: Different developers can work on different modules
-6. **Configuration**: Easy to modify behavior without code changes
-
 ## Dependencies
 
 - ultralytics (YOLO)
@@ -153,12 +147,6 @@ python avpss/example_usage.py
 - opencv-python
 - numpy
 - PIL (Pillow)
-
-## Installation
-
-```bash
-pip install ultralytics torch torchvision opencv-python numpy pillow
-```
 
 ## Testing
 
@@ -196,4 +184,5 @@ python -m avpss.tests.test_detector
 - ❌ Any safety-critical applications
 
 **Use at your own risk. The author assumes no responsibility for any consequences of using this software.**
+
 
